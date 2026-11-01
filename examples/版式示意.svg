@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#141414"/>
+  <text x="30" y="42" fill="#ffd750" font-family="sans-serif" font-size="24">explore-uncanny · 版式示意（左：封面 / 右：内容图）</text>
+
+  <!-- 封面 -->
+  <g transform="translate(60,80)">
+    <rect width="360" height="640" fill="#2a2f33" stroke="#555" stroke-width="2"/>
+    <!-- 标题块 -->
+    <rect x="40" y="120" width="280" height="120" rx="14" fill="#000" opacity="0.55"/>
+    <text x="180" y="175" fill="#fff" font-family="sans-serif" font-size="40" font-weight="bold" text-anchor="middle">哑口隧道</text>
+    <text x="180" y="215" fill="#e6e9ee" font-family="sans-serif" font-size="17" text-anchor="middle">停用十二年的引水洞，</text>
+    <text x="180" y="237" fill="#e6e9ee" font-family="sans-serif" font-size="17" text-anchor="middle">每到夜里就有人应声</text>
+    <!-- 主体区 -->
+    <rect x="40" y="300" width="280" height="300" fill="#3b4a42" opacity="0.5"/>
+    <text x="180" y="460" fill="#9fb3a6" font-family="sans-serif" font-size="16" text-anchor="middle">主体 / 巨构（下 2/3）</text>
+    <text x="180" y="560" fill="#8b8b8b" font-family="sans-serif" font-size="14" text-anchor="middle">↑ 上 1/3 留安静暗区放标题</text>
+
+    <text x="180" y="680" fill="#ffd750" font-family="sans-serif" font-size="16" text-anchor="middle">标题 = 画面宽 × 0.105（Black）</text>
+    <text x="180" y="705" fill="#ffd750" font-family="sans-serif" font-size="16" text-anchor="middle">副标题 = × 0.042（Medium）· 中心 y≈0.33</text>
+  </g>
+
+  <!-- 内容图 -->
+  <g transform="translate(480,80)">
+    <rect width="360" height="640" fill="#2a2f33" stroke="#555" stroke-width="2"/>
+    <rect x="20" y="40" width="320" height="380" fill="#3b4a42" opacity="0.45"/>
+    <text x="180" y="230" fill="#9fb3a6" font-family="sans-serif" font-size="16" text-anchor="middle">场景 / 人物（按七拍）</text>
+    <!-- 字幕块 -->
+    <rect x="45" y="470" width="270" height="110" rx="12" fill="#000" opacity="0.5"/>
+    <text x="180" y="512" fill="#fff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">往洞里走了三十米。</text>
+    <text x="180" y="550" fill="#fff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">水声突然停了。</text>
+    <text x="180" y="620" fill="#ffd750" font-family="sans-serif" font-size="14" text-anchor="middle">框只包住文字 · 两行宽度接近</text>
+
+    <text x="180" y="680" fill="#ffd750" font-family="sans-serif" font-size="16" text-anchor="middle">字幕 = 画面宽 × 0.062（Black）· 中心 y≈0.80</text>
+    <text x="180" y="705" fill="#ffd750" font-family="sans-serif" font-size="16" text-anchor="middle">2–3 行 · 均衡换行 · 标点不在行首</text>
+  </g>
+</svg>

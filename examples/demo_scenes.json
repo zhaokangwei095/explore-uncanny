@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "哑口隧道",
+    "slug": "yakou-tunnel",
+    "frame_count": 4,
+    "hero_frame": "07",
+    "cover": { "title": "哑口隧道", "subtitle": "停用十二年的引水洞，每到夜里就有人应声" },
+    "topic_source": {
+      "type": "news",
+      "based_on": "公开报道中的同类事件（已合并、已抽象）",
+      "anonymized": ["地名", "机构", "人名", "时间", "人数", "特征数字"],
+      "fictional_layer": "隧道会逐字复述进入者的最后一句话，且只复述一次",
+      "disclaimer": "本故事纯属虚构，与任何真实地点、人物无关"
+    }
+  },
+  "scenes": [
+    {
+      "id": "00", "beat": "封面", "one_liner": "封面：山体上的隧道口，上方留标题区",
+      "rules": ["R1"], "camera": "C1", "fig_scale": 11, "light": "L2",
+      "style_variant": "STYLE", "material_variant": "default", "compo_variant": "cover", "lens": "up",
+      "scene_en": "Scene: a concrete tunnel mouth set into a wet mountain face, half swallowed by scrub and moss, dark water running out of it. The hillside above is lost in mist. He stands small on the approach path, seen from behind, looking into the dark opening.",
+      "fig_anchor_en": "He is a small dark mark, no taller than the marker stone beside him, easy to miss. He stands off centre in the lower third, his head below the lower quarter line.",
+      "title": "封面", "subtitle_zh": ""
+    },
+    {
+      "id": "03", "beat": "Ⅱ 门槛", "one_liner": "洞口往里三十米，水声停了",
+      "rules": ["R5", "R6"], "camera": "C4", "fig_scale": 28, "light": "L3",
+      "style_variant": "STYLE", "material_variant": "default", "compo_variant": "default", "lens": "up",
+      "scene_en": "Scene: inside the tunnel, thirty metres in. The concrete lining is stained and dripping, and a shallow channel of black water runs along the floor. His torch beam dies a few metres ahead. A modern plastic water bottle stands upright on the ledge, full and cold.",
+      "fig_anchor_en": "He is a small dark figure, no taller than the pipe stub beside him, easy to miss. He stands in the lower left third, his head below the middle line of the frame.",
+      "title": "水停了", "subtitle_zh": "往洞里走了三十米。水声突然停了。"
+    },
+    {
+      "id": "07", "beat": "Ⅴ 最深处", "one_liner": "竖井底部是一圈朝上的耳朵状石壁",
+      "rules": ["R1", "R2"], "camera": "C2", "fig_scale": 7, "light": "L3",
+      "style_variant": "STYLE", "material_variant": "default", "compo_variant": "down", "lens": "down",
+      "scene_en": "Scene: seen steeply down a vertical shaft at the end of the tunnel. The shaft walls are carved into overlapping shell-like forms, each one cupped upward like an ear, hundreds of metres deep, wet and veined. The bottom is lost in black. A small cold pool of torchlight touches one of the forms and fades.",
+      "fig_anchor_en": "He is a speck on the lip, no larger than a thumbnail held at arm's length. He stands in the lower centre, his head below the lower eighth line of the frame.",
+      "title": "耳朵", "subtitle_zh": "井壁上全是耳朵。一圈一圈，朝上。"
+    },
+    {
+      "id": "12", "beat": "Ⅶ 反噬", "one_liner": "病房里放录音，多了一句不是他说的话",
+      "rules": ["R3"], "camera": "C5", "fig_scale": 0, "light": "L4",
+      "style_variant": "STYLE_WARD", "material_variant": "ward", "compo_variant": "ward", "lens": "screen",
+      "scene_en": "Scene: a hospital ward at night. In the near foreground at the left, out of focus, the back and side of a man's head and his two hands holding a phone at chest height; the phone screen is sharp and faces the camera. On the screen is a voice-recording waveform, and one extra segment is highlighted in the middle of it.",
+      "fig_anchor_en": "The man's head and hands sit in the lower left corner, very close to the lens and out of focus.",
+      "title": "多了一句", "subtitle_zh": "录音里多了一句。是我的声音，但那天我没说话。"
+    }
+  ]
+}
