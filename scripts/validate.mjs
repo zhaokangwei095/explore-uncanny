@@ -140,6 +140,14 @@ if (data && data.meta && data.meta.topic_source) {
   }
 }
 
+// 6.9) 选题取材：地名应为仿古虚构
+if (data && data.meta && data.meta.topic_source) {
+  const ts = data.meta.topic_source;
+  if (ts.type === "news" && ts.place_name_style === "invented_archaic" && ts.place_name_verified_not_real !== true) {
+    warns.push("地名标为仿古虚构但未标记 place_name_verified_not_real=true（请确认已搜过、查无此地）");
+  }
+}
+
 // 7) 生成物里的禁用词
 for (const f of ["04_提示词全套.md","prompts.json"]) {
   const p = join(proj, f);
